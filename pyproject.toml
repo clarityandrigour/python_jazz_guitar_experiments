@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-jazz-guitar-experiments"
+version = "0.1.0"
+description = "poetry toml file for music"
+authors = ["Dheeraj Chand <dheeraj@dheerajchand.com>"]
+readme = "README.md"
+packages = [{include = "python_jazz_guitar_experiments"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.8"
+PyGuitarPro = "^0.9.3"
+ipython = "^8.11.0"
+ipdb = "^0.13.13"
+pandas-vectors = "^0.1.1"
+pandas = "^1.5.3"
+mscxyz = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

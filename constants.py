@@ -5,4 +5,8 @@ CHROMATIC_SCALES = [
 
      ], ]
 
+INTERVAL_SIZES_AND_NAMES = {
+    'Minor_Second': 1
+}
+
 CONCERT_PITCH = 432
